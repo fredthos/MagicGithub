@@ -24,9 +24,8 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public void generateRandomUser() {
-        // TODO: A modifier --> ajouter une variable en appelant une fonction qui va pointé sur une liste de User, et ainsi ajouté une personne de cette liste
-        User newGenerateRandomUser = User.random();
-        users.add(0,newGenerateRandomUser);
+        // TODO: A modifier --> ajouter une personne de la liste user.romdom
+        users.add(User.random());
     }
 
     /**
